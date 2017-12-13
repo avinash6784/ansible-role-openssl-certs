@@ -1,0 +1,16 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: avinash6784 (Avinash Pawar)
+  description: Ansible role to install and generate OpenSSL Certs
+  license: MIT
+  company: "DevOps Techie <http://devopstechie.com>"
+  min_ansible_version: 2.0
+  platforms:
+  - name: EL
+    versions:
+    - all
+  galaxy_tags:
+    - development
+    - system
