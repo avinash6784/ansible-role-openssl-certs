@@ -24,19 +24,19 @@ $ ansible-galaxy install avinash6784.openssl-certs
 Or download manually
 
 $ git clone https://github.com/avinash6784/ansible-role-openssl-certs.git 
-The code should reside in the roles directory of ansible ( See ansible documentation for more information on roles ), in a folder openssl-certs.
+The code should reside in the roles directory of ansible ( See ansible documentation for more information on roles ), in a folder ansible-role-openssl-certs.
 
 ## Run the playbook
 
-First create a playbook including the git role, naming it ssl.yml.
+First create a playbook including the git role, naming it test.yml.
 ```yml
 - name: Install OpenSSL Certs
   hosts: localhost
   become: true
   roles:
-    - openssl-certs
+    - ansible-role-openssl-certs
     
-$ ansible-playbook -i hosts ssl.yml
+$ ansible-playbook -i hosts test.yml
 ```
 
 ## Author Informations
