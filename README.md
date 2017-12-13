@@ -68,4 +68,4 @@ $ ansible-playbook -i hosts test.yml
 
 ## Author Informations
 
-This role was created by [Avinash Pawar](https://github.com/avinash6784/)
+This role was created by [Avinash Pawar](http://devopstechie.com)
